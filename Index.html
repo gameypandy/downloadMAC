@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>downloadMAC</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    body { background: linear-gradient(135deg, #0a0f2c, #1a2b6d); color: white; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+    .card { background: rgba(255, 255, 255, 0.12); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-radius: 20px; padding: 40px; width: 100%; max-width: 420px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4); text-align: center; }
+    h1 { font-size: 2.2rem; margin-bottom: 10px; }
+    p { opacity: 0.85; margin-bottom: 30px; }
+    .download-btn { display: inline-block; padding: 14px 28px; border-radius: 14px; background: linear-gradient(135deg, #3b82f6, #22d3ee); color: white; text-decoration: none; font-weight: 600; font-size: 1rem; transition: transform 0.15s ease, box-shadow 0.15s ease; box-shadow: 0 10px 30px rgba(34, 211, 238, 0.4); }
+    .download-btn:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(34, 211, 238, 0.6); }
+    .file-name { margin-top: 20px; font-size: 0.9rem; opacity: 0.75; word-break: break-all; }
+    .disclaimer { margin-top: 20px; font-size: 0.7rem; opacity: 0.6; line-height: 1.3; }
+    footer { margin-top: 20px; font-size: 0.75rem; opacity: 0.5; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>downloadMAC</h1>
+    <p>Simple and fast macOS downloads</p>
+
+    <!-- GitHub-hosted file download -->
+    <a class="download-btn" href="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/Mac%20OS%2026.1%20Tahoe.iPSW" download>
+      Download
+    </a>
+
+    <div class="file-name">Mac OS 26.1 Tahoe.iPSW</div>
+
+    <div class="disclaimer">
+      Disclaimer: downloadMAC is not responsible for any data loss, system damage, or other issues that may occur when running downloaded files, especially in virtual machines (VMs).
+    </div>
+
+    <footer>© 2026 downloadMAC</footer>
+  </div>
+</body>
+</html>
